@@ -1,0 +1,60 @@
+/*-----------------------------------------------
+                Slyder Style 
+-------------------------------------------------*/
+.slider-btn{
+    color: aliceblue;
+    background-color: rgba(0, 0, 255, 0);
+    border: aliceblue solid 2px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.slider-btn:hover{
+    color: black;
+    background-color: aliceblue;
+}
+.slider-image{
+    width: 100%;
+}
+
+/* --------------------------------------------------
+                    Package Style
+----------------------------------------------------*/
+.package-btn{
+    border: #3F87F5 solid 2px;
+    color: #3F87F5;
+    font-weight: 700;
+    justify-content: center;
+}
+.package-btn:hover{
+    color: aliceblue;
+    background-color: #3F87F5;
+}
+.package-btn2{
+    color: #3F87F5;
+    background-color: aliceblue;
+}
+.bg-blue{
+    background-color: #3F87F5;
+}
+.bg-black{
+    color: #0B0D17;
+}
+.icon-bg-blue{
+    background-color: hsl(216, 100%, 76%);
+}
+.badge-custom{
+    margin-bottom: -10px;
+}
+.price-rounded-custom{
+    border-radius: 30px;
+}
+
+/* --------------------------------------------------
+                    Mobile Screen
+----------------------------------------------------*/
+
+@media only screen and (max-width:688px){
+    .slider-image{
+        width: auto;
+    }
+}
